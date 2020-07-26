@@ -1,6 +1,6 @@
 # require 'mechanize'
 
-# class Scraping < ApplicationRecord
+class Scraping < ApplicationRecord
 #   def self.scrape
 #     agent = Mechanize.new
 #     url = 'https://graphics.reuters.com/CHINA-HEALTH-MAP-LJA/0100B5FZ3S1/index.html'
@@ -8,4 +8,4 @@
 #     elements = page.search('title')
 #     puts elements
 #   end
-# end
+end
