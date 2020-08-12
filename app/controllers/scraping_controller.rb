@@ -7,7 +7,6 @@ class ScrapingController < ApplicationController
     # getメソッドでURLのHTML情報を取得する。
     page = agent.get(url)
     # searchメソッドで引数に当てはまる要素を全て取得する。
-    # elements = page.search('//*[@id="newsspec-26926"]/div/div/div[2]/div[3]/table/tbody/tr[1]')
     @elements = page.search('table')
     @elements.each do |element|
       puts element.inner_text
