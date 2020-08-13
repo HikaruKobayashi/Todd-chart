@@ -35,7 +35,7 @@ gem "jquery-rails"
 # Add
 gem 'jquery-turbolinks'
 # Darw Chart
-gem "chartkick"
+gem "chartkick", ">= 3.4.0"
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
